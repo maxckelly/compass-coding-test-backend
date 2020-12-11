@@ -23,9 +23,6 @@
 #### Errors:
 - 500: Server error
 
-# Tests Design
-
-
 # Directory structure
 - assets
   - RelationshipDiagram.png
