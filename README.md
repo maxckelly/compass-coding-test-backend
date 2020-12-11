@@ -20,6 +20,27 @@
       }
     }
 ```
+
+### GET /surveys/:id
+- `router.get('/surveys/:id', getSurvey);`
+
+#### Returns 
+- Success: 200
+``` 
+{ 
+  id
+  name
+  questions {
+    title
+    subTitle
+    questionOrder
+    options {
+      text
+      order
+    }
+  }
+}
+```
 #### Errors:
 - 500: Server error
 
